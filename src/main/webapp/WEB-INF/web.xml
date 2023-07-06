@@ -1,0 +1,33 @@
+<!DOCTYPE web-app PUBLIC
+        "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+        "http://java.sun.com/dtd/web-app_2_3.dtd" >
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+
+<display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <servlet-name>InicioController</servlet-name>
+    <servlet-class>controller.InicioController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>InicioController</servlet-name>
+    <url-pattern>/</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>CapacitacionController</servlet-name>
+    <servlet-class>controller.CapacitacionController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CapacitacionController</servlet-name>
+    <url-pattern>/capacitacion</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ContactoController</servlet-name>
+    <servlet-class>controller.ContactoController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ContactoController</servlet-name>
+    <url-pattern>/contacto</url-pattern>
+  </servlet-mapping>
+</web-app>
